@@ -2,10 +2,10 @@
 This Streamlit web application visualizes and analyzes data from a water treatment plant, providing insightful metrics and interactive visualizations for water quality and treatment processes.
 
  Live Demo
-You can explore the live app here →
+You can explore the live app here → https://water-treatment.streamlit.app/
 
  Dataset
-The dataset used in this project was sourced from the UCI Machine Learning Repository - Water Treatment Plant Dataset.
+The dataset used in this project was sourced from the UCI Machine Learning Repository - Water Treatment Plant Dataset:https://archive.ics.uci.edu/dataset/106/water+treatment+plant .
 
 Number of Instances: 527
 Number of Attributes: 38
@@ -14,24 +14,18 @@ Python
 Streamlit
 Pandas
 Altair (for visualizations)
+
  Setup and Run Locally
 To run this project locally:
 
-Clone this repository:
-bash
-Copy
-Edit
+1. Clone this repository:
 git clone git@github.com:FidelGatimu/water-treatment-plant.git
 cd water-treatment-plant
-Install dependencies:
-bash
-Copy
-Edit
+
+2. Install dependencies:
 pip install -r requirements.txt
-Run the app:
-bash
-Copy
-Edit
+
+3. Run the app:
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 
